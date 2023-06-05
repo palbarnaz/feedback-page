@@ -1,14 +1,14 @@
 import React from 'react';
 
+import GStyles from './config/GlobalStyles';
 import AppRoutes from './Routes/AppRoutes';
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <AppRoutes />
-            </header>
-        </div>
+        <>
+            <GStyles />
+            <AppRoutes />
+        </>
     );
 }
 
