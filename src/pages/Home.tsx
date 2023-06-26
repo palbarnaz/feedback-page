@@ -1,4 +1,4 @@
-import { Card, CardContent, Grid, Typography } from '@mui/material';
+import { Card, CardContent, Container, Grid, Typography } from '@mui/material';
 import React from 'react';
 
 import CardPerson from '../components/CardPerson';
@@ -11,11 +11,13 @@ const Home: React.FC = () => {
                 <TitleHeader />
             </Grid>
             <Grid item height="70%" sx={{ backgroundColor: '#89c2d9' }} xs={12}>
-                <Grid container marginTop={2} display="flex" justifyContent="center" spacing={3}>
-                    <CardPerson />
-                    <CardPerson />
-                    <CardPerson />
-                </Grid>
+                <Container>
+                    <Grid container marginTop={2} display="flex" justifyContent="center" spacing={3}>
+                        <CardPerson />
+                        <CardPerson />
+                        <CardPerson />
+                    </Grid>
+                </Container>
             </Grid>
         </Grid>
     );
