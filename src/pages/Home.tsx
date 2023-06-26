@@ -12,9 +12,9 @@ const Home: React.FC = () => {
             </Grid>
             <Grid item sx={{ backgroundColor: '#d2c4f9' }} xs={12}>
                 <Grid container justifyContent="center" alignItems="center">
-                    <CardPerson />
-                    <CardPerson />
-                    <CardPerson />
+                    <CardPerson backgroundColor="#26235b" color="white" />
+                    <CardPerson backgroundColor="white" color="black" />
+                    <CardPerson backgroundColor="#26235b" color="white" />
                 </Grid>
             </Grid>
         </Grid>
