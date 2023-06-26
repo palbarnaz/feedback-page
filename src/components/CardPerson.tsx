@@ -3,7 +3,7 @@ import React from 'react';
 
 const CardPerson: React.FC = () => {
     return (
-        <Grid item xs={12} sm={6} md={3}>
+        <Grid item xs={12} sm={6} md={3} height="100%">
             <Card sx={{ backgroundColor: '#d9dcd6' }}>
                 <CardContent>
                     <Typography>Nome</Typography>
