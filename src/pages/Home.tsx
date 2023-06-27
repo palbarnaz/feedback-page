@@ -21,7 +21,7 @@ const Home: React.FC = () => {
                     <CardPerson
                         cardColor="white"
                         colorDescription="black"
-                        skills={['Comunicação eficaz', 'Perspicaz', 'Organização']}
+                        skills={['Comunicação eficaz', 'Trabalho em equipe', 'Organização']}
                         title="Esther Linhares"
                     />
 

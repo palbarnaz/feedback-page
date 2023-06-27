@@ -17,13 +17,15 @@ const CardPerson: React.FC<CardPersonProps> = ({ cardColor, colorDescription, sk
             <Card sx={{ backgroundColor: cardColor, color: colorDescription, borderRadius: '30px' }}>
                 <CardContent>
                     <Stack justifyContent="center" direction="row">
-                        <Avatar sx={{ bgcolor: deepPurple[500], width: 120, height: 120, border: ' 3px solid #c6c027' }}>OP</Avatar>
+                        <Avatar sx={{ bgcolor: deepPurple[500], width: 120, height: 120, border: ' 3px solid #c6c027' }}>
+                            <img height="150px" width="150px" src="./images/avatar2.png" alt="" />
+                        </Avatar>
                     </Stack>
-                    <Typography marginTop={2} variant="h5">
+                    <Typography marginTop={1} variant="h5">
                         {title}
                     </Typography>
                     <Typography variant="body1">Growdever</Typography>
-                    <Box display="flex" margin={5} justifyContent="center" flexWrap="wrap" alignItems="center" gap={1}>
+                    <Box display="flex" margin={3} justifyContent="center" flexWrap="wrap" alignItems="center" gap={0.7}>
                         {skills.map((item) => (
                             <Chip key={item} sx={{ backgroundColor: '#6c62b7', color: 'white' }} label={item} />
                         ))}
